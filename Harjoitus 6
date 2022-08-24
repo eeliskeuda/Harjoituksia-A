@@ -1,0 +1,14 @@
+using System;
+
+namespace Harjoituksia_A6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Kirjoita nimesi: ");
+            string nimi = Console.ReadLine();
+            Console.WriteLine("Hei " + nimi);
+        }
+    }
+}
